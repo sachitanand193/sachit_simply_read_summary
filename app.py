@@ -1,5 +1,5 @@
 import streamlit as st 
-st.set_page_config(Layout="wide")
+st.set_page_config(layout="wide")
 st.title("Semantic Search and Summarization Application")
 uploaded_pdf=st.file_uploader("Upload your PDF",type=['pdf'])
 if uploaded_pdf is not None:
